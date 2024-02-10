@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@media (min-width: 992px) { 
+    .derecha {
+        float: right;
+        width: 40%;
+    }
+}
+
+header {
+    margin-top: 56px;
+    background-color: #ff6000;
+}
+
+.izquierda {
+    width: 60%;
+}
+
+h3 {
+    margin-top: 2%;
+    padding-top: 3%;
+}
+
+.servicios {
+    background-color: #E5E8E8;
+    border-bottom: 1px solid;
+    border-color: #D5D8DC;
+}
+
+.central {
+    margin: 0% 30%;
+}
+
+.imagenes img {
+    width: 350px;
+}
+
+.centralImg {
+    margin: 0% 2%;
+}
+
+.precios {
+    background-color: #E5E8E8;
+}
+
+.generalPrecio {
+    width: 20%;
+    border: 1px solid #ff6000;
+    background-color: white;
+}
+
+.cabecera {
+    background-color: #ff6000;
+    color: white;
+}
+
+.cabecera p {
+ padding: 20px;
+}
+
+.medio {
+    border-bottom: 1px solid #ff6000;
+}
+
+.pie {
+    padding-top: 20px;
+}
+
+.pie p{
+    margin: 0px;
+}
+
+.pie button {
+    margin: 10px 0px;
+    background-color: #ff6000;
+    border: 2px solid #ff6000;
+    border-radius: 3px;
+    color: white;
+}
+
+
+footer img {
+    margin: 2% 0%;
+    padding-top: 3%;
+    width: 30px;
+}

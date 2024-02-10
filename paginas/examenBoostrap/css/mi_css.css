@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* Autor: Alejandro Paniagua Rodriguez
+ * Fecha: 2019
+ * Módulo: DIW
+ */
+
+@media (min-width: 576px) and (min-width: 768px) { 
+    .primera {
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 768px) { 
+    .primera {
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .primera {
+        width: 41%;
+        position: absolute;
+        top: 20%;
+        margin-left: 2%;
+    }
+}
+
+.fondoMenu {
+    background-color: #2C3E50;
+    opacity: 0.5;
+}
+
+.mostrar {
+    z-index: 500;
+    opacity: 1;
+}
+
+.general {
+    position: relative;
+    z-index: -500;
+}
+
+.segunda {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    width: 25%;
+    left: 70%;
+}
+
+.btn {
+    background-color: #F4D03F;
+    border: 2px solid #F4D03F;
+    color: white;
+}
+
+.segunda .form-control {
+    width: 90%;
+    margin: 6% 5%;
+}
+
+.espacio {
+    margin-top: 10%;
+}
+
+.imgGeneral {
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.destinos {
+    margin-top: 10%;
+    background-color: #ABB2B9;
+}
+
+footer {
+    padding-top: 1%;
+    background-color: #2E4053;
+}
+
+.colorHR {
+    border-color:  #85929E;
+}
+
+.color {
+    color: #85929E;
+}
+
+.color2 {
+    color: #F4D03F;
+}

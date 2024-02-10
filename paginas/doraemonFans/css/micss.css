@@ -1,0 +1,278 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+/*General*/
+
+body {
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: #3498DB;
+    min-width: 768px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+}
+
+/*Cabecera*/
+
+header {
+    margin: 0px;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.logo{
+    display: table-cell;
+    width: 20%;
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.nombre {
+    display: table-cell;
+    width: 80%;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+/*Menu*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E74C3C;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: gainsboro;
+}
+
+nav .active {
+    background-color: #F4D03F;
+}
+
+nav .ultimo{
+    float:right;
+}
+
+/*Cuerpo*/
+
+main{
+    display: flex;
+}
+
+.izq {
+    box-sizing: border-box;
+    flex: 80%;
+    margin-top: 20px;
+}
+
+.izq div {
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.noticia {
+    padding: 5px 15px;
+}
+
+.noticia .noticiaImagen {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+.noticiaImagen img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.noticiaImagen .descripcion {
+    background-color: #D5D8DC;
+    opacity: 0.7;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 3px;
+    width: 97%;
+    margin-left: 15px;
+}
+
+.noticiaImagen .descripcion p {
+    margin: 8px;
+    font-weight: 700;
+}
+
+.noticiaImagen .categoria {
+    position: absolute;
+    bottom: 212px;
+    right: -5px;
+}
+
+.noticiaImagen .categoria p {
+    font-size: 12px;
+    margin: 0px;
+    border: 1px solid black;
+    background-color: #D5D8DC;
+}
+
+.izq .ultimo {
+    margin-bottom: 0px;
+    display: flex;
+    overflow: hidden;
+    padding: 5px 15px;
+}
+
+.izq .ultimo .imagen {
+    box-sizing: border-box;
+    flex: 33%;
+    height: 250px;
+    text-align: center;
+}
+
+.izq .ultimo .imagen img {
+    display: block;
+    margin: auto;
+}
+
+.izq .ultimo div {
+    margin-bottom: 0px;   
+}
+
+.der {
+    box-sizing: border-box;
+    flex: 20%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.der div {
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.der .ultimo {
+    margin-bottom: 0px;
+}
+
+.der .info {
+    padding: 5px 15px;
+}
+
+.der .info img {
+    display: block;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+}
+
+.der .popular {
+    padding: 5px 15px;
+}
+
+.der .popular img {
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 240px;
+}
+
+.der .popular .ultimaImg {
+    margin-bottom: 16px;
+}
+
+.der .social h1 {
+    text-align: left;
+}
+
+.der .social {
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.facebook {
+    width: 56px;
+    height: 56px;
+    background: url("../images/sprite.png") -56px 56px;
+    display: inline-block;
+}
+
+.twitter {
+    width: 56px;
+    height: 56px;
+    background: url("../images/sprite.png") 0px 56px;
+    display: inline-block;
+}
+
+.instagram {
+    width: 56px;
+    height: 56px;
+    background: url("../images/sprite.png") 176px 56px;
+    display: inline-block;
+}
+
+.facebook:hover{
+    background-position: -56px 0px;
+}
+
+.twitter:hover {
+    background-position: 0px 0px;
+}
+
+.instagram:hover {
+    background-position: 176px 0px;
+}
+
+.etiquetas span {
+    display: inline-block;
+    margin: 3px;
+    padding: 2px;
+    background-color: grey;
+    color: white;
+}
+
+.etiquetas .activo {
+    padding: 5px;
+    background-color: #F4D03F;
+}
+
+.pie {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+}

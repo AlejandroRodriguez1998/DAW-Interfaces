@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+header, footer, main, body{
+    background-color: #3498DB;
+}
+
+.header, .footer, main > div{
+    background-color: white;
+}
+
+.logo {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+}
+
+.form-inline .form-control {
+    margin-left: 5%;
+    width: 60%;
+}
+
+.btn-outline-success {
+    color: #3498DB;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3498DB;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.bg-light{
+    background-color: #E74C3C!important;
+}
+
+ul.navbar-nav{
+    width: 100%;
+}
+
+li.nav-item{
+    width: 25%;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #F9E79F;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: inherit;
+}
+
+.bigEntrance img{
+    width: 40px;
+}
+
+h3 {
+    font-size: 1.20rem;
+}
+
+/* Efecto Bordes Inicio */
+.overlayinn-border { /* Propiedades de la transparencia */
+    background-color: #3498DB;
+    width: 250px; /* ancho del contenedor de texto */
+    height: 110px; /* alto del contenedor de texto */
+    top: 45px; /*distancia hacia abajo*/
+    left: 50px; /*distancia hacia la derecha*/
+    border-radius: 15px 15px 15px 15px; /*efecto esquinas redondeadas */
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 0px solid #3498DB;
+    opacity: 0; /* esta condicion mantiene el texto oculto */
+    position: absolute;
+    padding: 20px; /* espacio entre texto y bordes */
+    transition: opacity .5s;
+    text-align: center; /* texto centrado */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px; /* tamaño de letra */
+    color:#ffffff; /* color de texto */
+}
+.overlayinn-border:hover { /* Efecto al pasar el mouse */
+    opacity: 1;
+    transition: opacity .5s;
+}
+/* Efecto Bordes final */
+
+caption {
+    caption-side: top;
+}
+
+
+.mapa {
+    width: 400px;
+    height: 250px;
+}
